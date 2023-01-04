@@ -111,13 +111,18 @@
                     <h2 class="tm-color-primary tm-section-title mb-4">
                       Instructions
                     </h2>
-                    <p class="mb-5">
+                    <p class="mb-3">
                       To get started, please join our
                       <a href="https://tryterra.co" target="_blank"
                         >Discord Server</a
                       >
                     </p>
-                    <p class="mb-5">
+                    <p class="mb-3">
+                      Flags will always be of the form
+                      <strong>terra_ctf{some_flag_you_get}</strong>
+                    </p>
+
+                    <p class="mb-3">
                       To submit flags for the competition, please privately
                       message Terra members in the server (who can be identified
                       by their Terra role). We will also be posting updates and
@@ -145,11 +150,11 @@
                       your goal is to sabotage him :blob-ban:
                     </p>
                     <div
-                    class="tenor-gif-embed"
-                    data-postid="14889389"
-                    data-share-method="host"
-                    data-aspect-ratio="2.42424"
-                    data-width="100%"
+                      class="tenor-gif-embed"
+                      data-postid="14889389"
+                      data-share-method="host"
+                      data-aspect-ratio="2.42424"
+                      data-width="100%"
                     >
                       <a
                         href="https://tenor.com/view/tony-stark-iron-man-rdj-robert-downey-jr-gif-14889389"
@@ -172,17 +177,103 @@
                 <div class="tm-flex-item-left">
                   <div class="tm-w-80">
                     <h2 class="tm-color-primary tm-section-title mb-4">
-                      Challenge 1: BLE stream of HR (EASY) (REV):
+                      Challenge 1: BLE stream of HR (EASY):
                     </h2>
                     <p class="mb-5">
                       You found where Tony trains and need to gather information
                       about his training performances. For now HR will suffice.
                       Can you intercept his training data during his performance
                       and bring that back to the team without Tony noticing
-                      during his training? :blob-cool: (participants should be
-                      able to write code that connects to a strap and retrieves
-                      data, ideally without interfering with the current strap
-                      connection to e.g. the app using it)
+                      during his training? :blob-cool:
+                    </p>
+                    <p class="mb-5">
+                      <em
+                        >(participants should be able to write code that
+                        connects to a strap and retrieves data, ideally without
+                        interfering with the current strap connection to e.g.
+                        the app using it)</em
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tm-section-wrap bg-white">
+            <section class="row tm-section">
+              <div class="col-12 tm-section-pad">
+                <div class="tm-flex-item-left">
+                  <div class="tm-w-80">
+                    <h2 class="tm-color-primary tm-section-title mb-4">
+                      Challenge 2: Mobile app rev (MEDIUM):
+                    </h2>
+                    <p class="mb-5">
+                      More information is needed about Tony such as his sleep
+                      habits and recovery schedule. You know from a friend that
+                      his uses TREIN to manage all of this. Can you retrieve
+                      Tony’s sleep and recovery data? :blob_eyes:
+                    </p>
+                    <p class="mb-5">
+                      <em
+                        >(participants should be able to reverse the app in the
+                        way they like and find the appropriate requests and
+                        secrets to connect to a server, find Tony’s user, and
+                        retrieve his data)</em
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tm-section-wrap bg-white">
+            <section class="row tm-section">
+              <div class="col-12 tm-section-pad">
+                <div class="tm-flex-item-left">
+                  <div class="tm-w-80">
+                    <h2 class="tm-color-primary tm-section-title mb-4">
+                      Challenge 3: Terra system rev (MED-HARD):
+                    </h2>
+                    <p class="mb-5">
+                      The sleep and recovery data from TREIN included summaries
+                      only, but you know TREIN uses Terra in the backend to get
+                      Tony’s data. You are provied with Terra credentials. Can
+                      you retrieve Tony’s full data (including his HR, HRV, and
+                      sleep stages samples)? :blob-devil:
+                    </p>
+                    <p class="mb-5">
+                      <em
+                        >(participants are meant to find vulnerabilities in the
+                        Terra service e.g. a SQL injection to allow their dev-id
+                        to access Tony’s)</em
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="tm-section-wrap bg-white">
+            <section class="row tm-section">
+              <div class="col-12 tm-section-pad">
+                <div class="tm-flex-item-left">
+                  <div class="tm-w-80">
+                    <h2 class="tm-color-primary tm-section-title mb-4">
+                      Challenge 4: Data tampering (MED-HARD):
+                    </h2>
+                    <p class="mb-5">
+                      With all the data accessible, the final step is to
+                      sabotage Tony’s performance using false data during his
+                      training to prompt bad sleep and recovery advice, hence
+                      affecting his overall performance. Relay false HR samples
+                      during Tony’s training to the app recording his workout.
+                      :spidermanohno:
+                    </p>
+                    <p class="mb-5">
+                      <em
+                        >(participants are meant to build a middleman attack and
+                        act as the HR strap)</em
+                      >
                     </p>
                   </div>
                 </div>

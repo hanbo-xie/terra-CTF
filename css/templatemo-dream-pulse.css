@@ -7,8 +7,7 @@ https://templatemo.com/tm-536-dream-pulse
 */
 
 body {
-  /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
-  font-family: "https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap";
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
   overflow-x: hidden;
@@ -78,6 +77,10 @@ a {
 #intro {
   min-height: 100vh;
   max-width: none;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .tm-brand {
